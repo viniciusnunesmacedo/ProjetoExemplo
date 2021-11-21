@@ -7,6 +7,7 @@ using ProjetoExemplo.Infraestrutura.Transversal.Identidade;
 using ProjetoExemplo.Infraestrutura.Transversal.Identidade.Seguranca;
 using ProjetoExemplo.Infraestrutura.Transversal.Identidade.Seguranca.Usuario;
 using ProjetoExemplo.Servicos.Api.Identificacao.Configuracoes;
+using System.Net;
 
 namespace ProjetoExemplo.Servicos.Api.Identificacao
 {
@@ -22,6 +23,8 @@ namespace ProjetoExemplo.Servicos.Api.Identificacao
             if (env.IsDevelopment())
             {
                 builder.AddUserSecrets<Startup>();
+
+                
             }
 
             builder.AddEnvironmentVariables();
