@@ -1,5 +1,5 @@
 ﻿using FluentValidation.Results;
-using ProjetoExemplo.Dominio.Interfaces;
+using ProjetoExemplo.Dominio.Interfaces.Base;
 using System.Threading.Tasks;
 
 namespace ProjetoExemplo.Dominio.Base

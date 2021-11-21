@@ -5,8 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ProjetoExemplo.Consulta\ProjetoExemplo.Consulta.csproj" />
     <ProjectReference Include="..\ProjetoExemplo.Dominio\ProjetoExemplo.Dominio.csproj" />
-    <ProjectReference Include="..\ProjetoExemplo.Infraestrutura.Dados\ProjetoExemplo.Infraestrutura.Dados.csproj" />
+    <ProjectReference Include="..\ProjetoExemplo.Infraestrutura.Dados.Escrita\ProjetoExemplo.Infraestrutura.Dados.Escrita.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -11,6 +11,7 @@ namespace ProjetoExemplo.Dominio.Modulos.Gerenciamento.Produtos.Eventos
                                        UnidadeMedida unidadeMedida)
         {
             Id = id;
+            AgregadoId = id;
             Descricao = descricao;
             UnidadeMedida = unidadeMedida;
         }

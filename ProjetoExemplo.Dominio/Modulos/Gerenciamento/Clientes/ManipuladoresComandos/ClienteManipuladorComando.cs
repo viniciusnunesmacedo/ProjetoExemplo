@@ -1,7 +1,6 @@
 ﻿using FluentValidation.Results;
 using MediatR;
-using ProjetoExemplo.Aplicacao.Modulos.Gerenciamento.Clientes.Eventos;
-using ProjetoExemplo.Dominio.Interfaces;
+using ProjetoExemplo.Dominio.Modulos.Gerenciamento.Clientes.Eventos;
 using ProjetoExemplo.Dominio.Modelos;
 using ProjetoExemplo.Dominio.Modulos.Gerenciamento.Clientes.Comandos;
 using ProjetoExemplo.Dominio.Base;
@@ -9,16 +8,16 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace ProjetoExemplo.Aplicacao.Comandos.Clientes
+namespace ProjetoExemplo.Dominio.Modulos.Gerenciamento.Clientes.ManipuladoresComandos
 {
     public class ClienteManipuladorComando : ManipuladorComando, 
                                              IRequestHandler<RegistrarNovoClienteComando, ValidationResult>,
                                              IRequestHandler<AtualizarClienteComando, ValidationResult>,
                                              IRequestHandler<ExcluirClienteComando, ValidationResult>
     {
-        private readonly IRepositorio _clienteRepositorio;
+        private readonly Interfaces.Escrita.IClienteRepositorio _clienteRepositorio;
 
-        public ClienteManipuladorComando(IRepositorio clienteRepositorio)
+        public ClienteManipuladorComando(Interfaces.Escrita.IClienteRepositorio clienteRepositorio)
         {
             _clienteRepositorio = clienteRepositorio;
         }

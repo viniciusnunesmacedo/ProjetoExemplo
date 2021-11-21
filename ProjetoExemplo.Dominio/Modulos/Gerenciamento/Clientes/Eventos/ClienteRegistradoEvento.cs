@@ -1,7 +1,7 @@
 ﻿using ProjetoExemplo.Dominio.Core.Eventos;
 using System;
 
-namespace ProjetoExemplo.Aplicacao.Modulos.Gerenciamento.Clientes.Eventos
+namespace ProjetoExemplo.Dominio.Modulos.Gerenciamento.Clientes.Eventos
 {
     public class ClienteRegistradoEvento : Evento
     {

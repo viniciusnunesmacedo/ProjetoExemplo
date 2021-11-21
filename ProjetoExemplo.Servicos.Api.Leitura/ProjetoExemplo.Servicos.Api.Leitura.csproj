@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
+    <UserSecretsId>2363ec76-3a47-4b20-b115-fdc9e9b1ade0</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.14" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.1.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.1.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.1.1" />
+
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProjetoExemplo.Consulta\ProjetoExemplo.Consulta.csproj" />
+    <ProjectReference Include="..\ProjetoExemplo.Infraestrutura.Transversal.Identidade\ProjetoExemplo.Infraestrutura.Transversal.Identidade.csproj" />
+    <ProjectReference Include="..\ProjetoExemplo.Infraestrutura.Transversal.IoC\ProjetoExemplo.Infraestrutura.Transversal.IoC.csproj" />
+  </ItemGroup>
+
+</Project>

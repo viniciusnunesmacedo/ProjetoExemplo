@@ -1,5 +1,5 @@
 ﻿using MediatR;
-using ProjetoExemplo.Aplicacao.Modulos.Gerenciamento.Clientes.Eventos;
+using ProjetoExemplo.Dominio.Modulos.Gerenciamento.Clientes.Eventos;
 using System.Threading;
 using System.Threading.Tasks;
 

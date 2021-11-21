@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using ProjetoExemplo.Aplicacao.ModelosLeitura;
+using ProjetoExemplo.Aplicacao.Modelos;
 using ProjetoExemplo.Dominio.Modelos;
 
 namespace ProjetoExemplo.Aplicacao.AutoMapper
@@ -8,7 +8,8 @@ namespace ProjetoExemplo.Aplicacao.AutoMapper
     {
         public PerfilMapeamentoDominioParaModelo()
         {
-            CreateMap<Cliente, ClienteModeloLeitura>();
+            CreateMap<Cliente, ClienteModelo>();
+            CreateMap<Produto, ProdutoModelo>();
         }
     }
 }

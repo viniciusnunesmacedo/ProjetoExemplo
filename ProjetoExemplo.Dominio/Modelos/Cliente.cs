@@ -1,5 +1,5 @@
 ﻿using ProjetoExemplo.Dominio.Core.Modelos;
-using ProjetoExemplo.Dominio.Interfaces;
+using ProjetoExemplo.Dominio.Interfaces.Base;
 using System;
 
 namespace ProjetoExemplo.Dominio.Modelos

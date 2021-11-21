@@ -10,9 +10,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ProjetoExemplo.Aplicacao\ProjetoExemplo.Aplicacao.csproj" />
+    <ProjectReference Include="..\ProjetoExemplo.Consulta\ProjetoExemplo.Consulta.csproj" />
     <ProjectReference Include="..\ProjetoExemplo.Dominio.Core\ProjetoExemplo.Dominio.Core.csproj" />
     <ProjectReference Include="..\ProjetoExemplo.Dominio\ProjetoExemplo.Dominio.csproj" />
-    <ProjectReference Include="..\ProjetoExemplo.Infraestrutura.Dados\ProjetoExemplo.Infraestrutura.Dados.csproj" />
+    <ProjectReference Include="..\ProjetoExemplo.Infraestrutura.Dados.Escrita\ProjetoExemplo.Infraestrutura.Dados.Escrita.csproj" />
+    <ProjectReference Include="..\ProjetoExemplo.Infraestrutura.Dados.Leitura\ProjetoExemplo.Infraestrutura.Dados.Leitura.csproj" />
     <ProjectReference Include="..\ProjetoExemplo.Infraestrutura.Transversal.Bus\ProjetoExemplo.Infraestrutura.Transversal.Bus.csproj" />
   </ItemGroup>
 
